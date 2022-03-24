@@ -1,0 +1,97 @@
+body {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: rgb(99, 14, 77);
+  background-color: #d9c9cc;
+  text-align: center;
+}
+
+nav b {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: 0px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  font-size: 1em;
+  color: rgb(99, 14, 77);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-container button:hover {
+  background-color: #e6b1b4;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  border-top: 4px solid;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo {
+  max-width: 50%;
+}
+
+.login,
+.register {
+  font-size: 1.2em;
+  padding: 40px 30%;
+  line-height: 2;
+  color: #492d2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login button,
+.register button {
+  font-size: 1em;
+  margin: 20px 30%;
+  margin-bottom: 0px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #492d2d;
+  background-color: #ffd6d8;
+}
+
+.login button:hover,
+.register button:hover {
+  background-color: #e6b1b4;
+}
+
+.login input,
+.register input {
+  font-size: 0.8em;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.mycards-heading {
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+As a user, I want to be able to register using my email and a password. Ideally with 2FA to either text or email, so that nobody makes a fake account with my email.
+
+*Stretch* As a user, I want to be able to login with Facebook or Google, so I have one less password to remember.
+
+As a user, I want to be able to set up a basic bio and profile picture, to make my page on the app a bit more personal.
+*Stretch* If I’m logging in with Facebook or Google, this can default to my profile picture on there, or be changeable to another picture.
+
+As a user, I want to have an editable page with form inputs, so I can easily CRUD all my different socials.
+
+As a user, I want to have a preview page, so I know what others will see once they go to the link that my QR code provides.
+
+As a user, I want to be able to open up an in-page pop-up with my QR code from anywhere in the app, so there is no fumbling when I want to give someone my code to scan.
+(This would most likely require a sticky navbar.)
+
+As a user, I want to have a little X button in the top right corner for said in-page pop-up, so I can get back to my app in a conventional and intuitive way.
+
+*Stretch* As a user, I want to have both a light (dark text on light bg) and dark (light text on dark bg) theme, so I can adjust to what my eyes and brain need.
+
+*Stretch* As an administrator, I want to be able to add another social network to the drop-down list, to make the app more inclusive.

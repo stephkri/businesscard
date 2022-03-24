@@ -1,0 +1,171 @@
+.card {
+  min-width: 300px;
+  height: auto;
+  margin-top: 1em;
+  display: flex;
+  border-style: solid;
+  border-color: #bd685b;
+  color: #b13554;
+  background-color: rgb(255, 228, 236);
+  text-align: middle;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_photo {
+  margin: 1em;
+  flex-direction: column;
+}
+
+.card_photo img {
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+
+.card_body {
+  display: flex;
+  margin: 1em;
+}
+
+.card_heading {
+  margin-bottom: 2em;
+}
+
+.card_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em;
+  min-width: 50px;
+  line-height: 1em;
+}
+
+.card_list-item a {
+  color: #b13554;
+  text-decoration: none;
+}
+
+.card_list-item a:hover {
+  text-decoration: underline;
+}
+
+.card_list-item a:active {
+  color: rgb(143, 143, 143);
+  text-decoration: underline;
+}
+
+.icon-phone {
+  padding-right: 0.5em;
+  height: 1.5em;
+}
+
+.icon-at {
+  padding-right: 0.5em;
+  height: 1.5em;
+}
+
+.icon-social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-github {
+  width: 50px;
+  color: black;
+  height: 2em;
+}
+
+.icon-linkedin {
+  width: 50px;
+  color: #0a66c2;
+  height: 2em;
+}
+
+.icon-facebook {
+  width: 50px;
+  color: #1b74e4;
+  height: 2em;
+}
+
+.icon-instagram {
+  width: 50px;
+  color: #941f4e;
+  height: 2em;
+}
+
+.icon-github:hover {
+  background-color: #e6b1b4;
+}
+
+.icon-linkedin:hover {
+  background-color: #e6b1b4;
+}
+
+.icon-facebook:hover {
+  background-color: #e6b1b4;
+}
+
+.icon-instagram:hover {
+  background-color: #e6b1b4;
+}
+
+.card_bio {
+  max-width: 200px;
+}
+
+.card_bio p {
+  word-break: break-all;
+  white-space: normal;
+}
+
+.display-button {
+  padding: 8px;
+  font-size: 1em;
+  background-color: #ffd6d8;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  border-color: #b13554;
+}
+
+.display-button:hover {
+  background-color: #e6b1b4;
+}
+
+.card_options {
+  min-width: 10em;
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  justify-content: space-around;
+}
+
+.card_options button {
+  padding: 8px;
+  font-size: 1em;
+  background-color: #ffd6d8;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  border-color: #b13554;
+}
+
+.card_options button:hover {
+  background-color: #e6b1b4;
+}
+
+.icon-edit {
+  color: rgb(0, 190, 0);
+}
+
+.icon-delete {
+  color: red;
+}

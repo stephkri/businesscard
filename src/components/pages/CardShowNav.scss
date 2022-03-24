@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container button {
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
+  font-size: 1em;
+  color: rgb(99, 14, 77);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-container button:hover {
+  background-color: #e6b1b4;
+}

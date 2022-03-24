@@ -1,0 +1,34 @@
+.card-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(99, 14, 77);
+  font-size: 1.1em;
+}
+
+.card-form-button {
+  display: flex;
+  justify-content: center;
+}
+
+.card-form-submit,
+.card-form-cancel {
+  width: 5em;
+  padding: 5px;
+  font-size: 1em;
+  background-color: #ffd6d8;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  border-color: #b13554;
+  color: #831a34;
+}
+
+.card-form-submit:hover,
+.card-form-cancel:hover {
+  background-color: #e6b1b4;
+  text-decoration: underline;
+}
+
+.card-form-cancel:hover {
+  background-color: rgb(255, 107, 107);
+}
